@@ -1,0 +1,44 @@
+.departures-board {
+    background: #2d2d2d;
+    color: #a4a4a4;
+    padding: 15px 20px
+}
+
+.departures-header-row > div span:first-child {
+    display: block;
+}
+
+.departures-header-row > .board-header {
+    text-align: center;
+}
+
+.departures-header-row > .board-header h3 {
+    margin-top: 5px;
+}
+
+.departures-header-row .current-date {
+    text-align: left;
+}
+
+.departures-header-row .current-time {
+    text-align: right;
+}
+
+.departures-board .departures {
+    text-transform: uppercase;
+}
+
+.departures-board .departures .departure:nth-child(even) {
+    background: rgb(68, 68, 68);
+}
+
+.departures-board .departures .departure .lateness-circle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: green;
+}
+
+.departures-board .departures .departure .lateness-circle.late {
+    background: red;
+}
